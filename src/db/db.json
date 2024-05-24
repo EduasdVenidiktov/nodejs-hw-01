@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "name": "Arthur Davis",
+    "phone": "392.920.5519 x62976",
+    "email": "Luciano_King@hotmail.com",
+    "job": "Product Configuration Consultant"
+  },
+  {
+    "name": "Caroline Kessler",
+    "phone": "(559) 715-1013",
+    "email": "Maria14@gmail.com",
+    "job": "Customer Response Director"
+  },
+  {
+    "name": "Dorothy Ferry",
+    "phone": "373-205-1104 x530",
+    "email": "Lora98@yahoo.com",
+    "job": "Senior Intranet Designer"
+  },
+  {
+    "name": "Samuel Wolf II",
+    "phone": "(385) 206-4310 x196",
+    "email": "Jessy67@gmail.com",
+    "job": "Central Group Director"
+  }
+]
