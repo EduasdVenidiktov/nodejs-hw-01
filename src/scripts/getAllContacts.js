@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 
 export const getAllContacts = async () => {
   try {
-    const readArray = await fs.readFile(PATH_DB, 'utf8'); //додаємо параметр 'utf8' для того, щоб readFile повертав рядок, а не буфер.
+    const readArray = await fs.readFile(PATH_DB, 'utf-8'); //додаємо параметр 'utf-8' для того, щоб readFile повертав рядок, а не буфер.
     const contacts = JSON.parse(readArray); //Перетворюємо прочитаний рядок JSON у масив об'єктів
     return contacts;
   } catch (error) {
